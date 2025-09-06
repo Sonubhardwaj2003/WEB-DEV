@@ -1,0 +1,76 @@
+<!-- Write a program where clicking on a paragraph toggles its background color between yellow and white. -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Background Color</title>
+    <style>
+        .yellow {
+            background-color: yellow;
+        }
+        .white {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Toggle Paragraph Background Color</h1>
+    <p id="toggleParagraph" class="white">Click me to change my background color!</p>
+
+    <script>
+        document.getElementById('toggleParagraph').onclick = function() {
+            this.classList.toggle('yellow');
+            this.classList.toggle('white');
+        };
+    </script>
+</body>
+</html> -->
+
+
+<!-- Create a button that, when clicked, adds a new li element to an existing ul. The li should have a click event attached that logs its content to the console. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add List Item</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dynamic List</h1>
+    <button onclick="addListItem()">Add List Item</button>
+    <ul id="myList">
+        <!-- Existing list items can go here -->
+    </ul>
+
+    <script>
+        function addListItem() {
+            var ul = document.getElementById('myList');
+            var li = document.createElement('li');
+            var itemNumber = ul.getElementsByTagName('li').length + 1;
+            li.textContent = 'Item ' + itemNumber;
+
+            li.addEventListener('click', function() {
+                console.log(this.textContent);
+            });
+
+            ul.appendChild(li);
+        }
+    </script>
+</body>
+</html>

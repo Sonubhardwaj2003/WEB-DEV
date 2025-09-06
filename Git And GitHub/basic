@@ -1,0 +1,22 @@
+# Initialize a new Git repository
+# Install Git using winget (run this in VS Code terminal or PowerShell)
+winget install --id Git.Git -e --source winget
+
+# Initialize a new Git repository
+git init
+
+# Set your user name and email for commits (replace with your info)
+git config user.name "Your Name"
+git config user.email "your.email@example.com"
+
+# (Optional) Create a .gitignore file
+echo "node_modules/" > .gitignore
+echo ".env" >> .gitignore
+
+# Add all files and commit initial version
+git add .
+git commit -m "Initial commit"
+
+# (Optional) Add a remote repository (replace with your repo URL)
+# git remote add origin https://github.com/yourusername/your-repo.git
+# git push -u origin master

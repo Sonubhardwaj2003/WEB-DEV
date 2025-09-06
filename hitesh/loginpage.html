@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        *{
+            margin: 0px;
+        }
+        .Container{
+            background-color: rgb(12, 21, 26);
+            width: 100vw;
+            height:100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .page{
+            width: 300px;
+            height: 300px;
+            background-color: rgb(119, 150, 143);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            border: 3px solid white;
+            box-shadow: 1px 1px 3px 4px white ,-1px -1px 3px 4px white;
+        }
+        .para1{
+            font-size: 30px;
+            color: rgb(243, 243, 243);
+        }
+        .form{
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            border: 3px solid rgb(255, 203, 203);
+        }
+        input{
+            border-radius: 5px;
+            border: 2px solid rgb(20, 1, 1);
+            padding: 5px;
+            margin: 5px;
+        }
+        button {
+            border-radius: 5px;
+            border: 2px solid rgb(20, 1, 1);
+            padding: 5px;
+            margin: 5px;
+            width: 92%;
+            background-color: rgb(174, 149, 117);
+            font-style: oblique;
+            font-variant: small-caps;
+            font-weight: bold;
+        }
+        button:hover{
+            background-color: bisque;
+            transform: scale(1, 1.2);
+        }
+
+    </Style>
+</head>
+<body>
+    <div class="Container">
+        <div class="page">
+            <div class="para1">
+                <h2>LOGIN</h2>
+            </div>
+    
+            <div class="form">
+                <form>
+                    <input type="email" name="email" id="email" placeholder="email">
+                    <br>
+                    <input type="password" name="pass" id="pass" placeholder="password">
+                    <br>
+                    <br>
+                    <button type="submit">Login</button>
+                    <!-- <button type="reset">Sign Up</button> -->
+                </form>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

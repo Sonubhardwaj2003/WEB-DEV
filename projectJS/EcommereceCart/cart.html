@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Products</h1>
+        <div class="product-list" id="product-list">
+            <!-- //initially it is empty , fill it dynamically using javaScript -->
+
+        </div>
+
+        <h2>Shoping Cart</h2>
+        <div id="cart-item">
+            <p id="empty-cart">Empty Cart</p>
+        </div>
+
+        <div id="total-cart" class="hidden">
+            <p>Total : <span id="total-price"> $0.00</span></p>
+            <button id="CheckOut-btn">CheckOut</button>
+        </div> 
+    </div>
+
+
+    <script src="cart.js"></script>
+</body>
+</html>

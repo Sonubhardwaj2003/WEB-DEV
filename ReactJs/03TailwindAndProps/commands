@@ -1,0 +1,25 @@
+npm create vite@latest my-project -- --template react
+cd my-project
+npm install -D tailwindcss@3 postcss autoprefixer
+npx tailwindcss init -p
+
+--tailwind.config.js
+content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+//ont forget to ctrl+s (to save file)
+
+
+--./src/index.css file.
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+npm run dev
+
+return (
+    <!-- <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1> -->
+  )

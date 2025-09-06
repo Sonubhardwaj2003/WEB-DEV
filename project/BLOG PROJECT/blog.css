@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 254);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 80%;
+    background-color:white ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.header{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    border-radius: 10px;
+}
+.header p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+.main{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(2,1fr);
+    /* grid-template-rows:1fr,1fr; */
+    row-gap: 3rem;
+    column-gap: 5rem;
+    /* grid-template-columns: repeat(auto-fit,minmax(300px,380px));
+    grid-template-rows: repeat(auto-fit,minmax(300px,500px)); */
+    justify-content: center;
+}
+
+.box{
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   border: 2px solid rgb(6, 41, 21);
+   
+}
+ #photo{
+    width: 366px;
+    margin: 5px;
+
+ }
+ #photo:hover{
+    transform: scale(1.04);
+    transition-duration: 200ms;
+ }
+ .para1{
+    margin: 10px;
+ }
+ .para1 h2 {
+    margin-bottom: 10px;
+ }
+ .para1 p {
+    margin-bottom: 20px;
+ }
+.brand1{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    position: relative;
+    margin: 10px;
+}
+
+.logo1{
+    
+    display: flex;
+    flex-direction:row;
+    /* position: relative; */
+    justify-content: start;
+    align-content: start;
+ }
+ .logo1 a {
+    text-decoration: none;
+    
+ }
+ .button1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+    
+ }
+ .sketch1 img {
+    border-radius: 50px;
+    border: 1px solid black;
+    margin: 5px;
+ }
+ .Bill{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+ }
+ .Bill a{
+    font-size: 20px;
+    color: blue;
+   
+ }
+ 
+ 
+ 

@@ -1,0 +1,40 @@
+<!-- Create an HTML page with an input field and a button. Write JavaScript code such that when the button is clicked, it displays the reversed text of the input field below the button. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse Text</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>FOR REVERSE THE TEXT</h1>
+    <div class="container">
+        <label for="inputText">Enter Text:</label>
+        <input type="text" id="inputText">
+        <button onclick="reverseText()">Reverse Text</button>
+    </div>
+    <div class="container">
+        <h2>Reversed Text:</h2>
+        <p id="reversedText"></p>
+    </div>
+
+    <script>
+        function reverseText() {
+            var inputText = document.getElementById('inputText').value;
+            var reversedText = inputText.split('').reverse().join('');
+            document.getElementById('reversedText').innerText = reversedText;
+        }
+    </script>
+    
+</body>
+</html>

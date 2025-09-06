@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #333;
+        /* color: rgb(163, 163, 234); */
+        color: #d02323;
+        padding: 1rem 0;
+        text-align: center;
+      }
+
+      nav ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        margin: 0 1rem;
+      }
+
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        color: rgb(207, 119, 4);
+      }
+
+      section {
+        margin: 2rem 0;
+        padding: 1rem;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hi! I'm SONU, a web developer with a passion for creating awesome
+        websites.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project 1</h3>
+        <p>Make a project on the ABES site.</p>
+        <a href="http://127.0.0.1:5500/MiniProject/abesSite.html">ABES Site</a>
+      </div>
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>Make a page for site Stydy Sinc.</p>
+        <a href="http://127.0.0.1:5500/project/STUDYSYNC%20PROJECT/studysync.html#Home">StudySync</a>
+      </div>
+      <div class="project">
+        <h3>Project 3</h3>
+        <p>Make a page for site Stydy Sinc.</p>
+        <a href="http://127.0.0.1:5500/project/RECIPE%20PROJECT/Recipe%20Project1.html">Recpie Project</a>
+      </div>
+      <div class="project">
+        <h3>Project 4</h3>
+        <p>Make a page for blogs.</p>
+        <a href="http://127.0.0.1:5500/project/BLOG%20PROJECT/BLOG%20PROJECT3.html">Blog Project</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="email">sb9432024@gmail.com</a></p>
+      <p>Phone : <a href="mobile">8059437568</a></p>
+    </section>
+  </body>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      alert("Welcome to my portfolio website!");
+    });
+  </script>
+</html>

@@ -1,0 +1,102 @@
+body {
+  background-image: url(https://wallpapercave.com/wp/wp7470581.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.85;
+  height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border: 3px solid white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  background-color: #96a1a1;
+}
+
+h1 {
+  font-size: 50px;
+  color: rgb(1, 10, 18);
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: Verdana, sans-serif;
+}
+
+input {
+  font-size: 20px;
+  padding: 5px;
+  background-color: #141414;
+  border: none;
+  border-bottom: 2px solid rgb(244, 102, 7);
+  color: white;
+  padding-left: 10px;
+}
+
+input::placeholder {
+  color: rgb(178, 181, 184);
+}
+
+input:focus {
+  outline: none;
+}
+
+#inputbtn {
+  color: white;
+  background-color: #282828;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+#inputbtn:hover {
+  background: #807e7e;
+  transform: scale(1.05);
+}
+
+.product {
+  background-color: #a7a5a5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  font-size: 20px;
+  margin: 5px;
+  color: rgb(6, 5, 5);
+  font-weight: bold;
+  border-radius: 10px;
+  gap: 2rem;
+  /* background: transparent; */
+}
+
+.product button {
+  color: white;
+  background-color: #141414;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.product button:hover {
+  background: #807e7e;
+}
+
+#total{
+  margin-top: 30px;
+}
+.spTotal{
+  background-color: #050202;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}

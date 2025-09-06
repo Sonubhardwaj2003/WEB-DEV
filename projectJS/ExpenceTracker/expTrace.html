@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Expense Tracker App</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="expTrace.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Expense Tracker</h1>
+
+    <!-- using a form so Enter key works -->
+    <form id="inputForm">
+      <div id="inputField">
+        <input type="text" id="source" placeholder="Source..." required />
+        <input type="number" id="price" placeholder="Amount (e.g. 99.50)" step="0.01" required />
+        <button id="inputbtn" type="submit">Add</button>
+      </div>
+    </form>
+
+    <h2>Expenses</h2>
+    <!-- kept your original spelling to avoid breaking CSS: "expences" -->
+    <div id="expences"></div>
+
+    <div id="total">
+      <span class="spTotal">Total: ₹0.00</span>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="expTrace.js"></script>
+</body>
+</html>

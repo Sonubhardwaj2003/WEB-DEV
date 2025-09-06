@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        *{
+            margin: 0px;
+        }
+        .container{
+            background-color: rgb(31, 30, 30);
+            width: 100vw;
+            height: 92.8vh;
+            /* background-attachment: fixed; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            border:2px solid rgb(0, 47, 235);
+            background-color: white;
+            margin: 25px;
+        }
+        img{
+            border-radius: 10px;
+        }
+        img:hover{
+            transform: scale(1.05);
+            border: 2px solid yellowgreen;
+            /* cursor: progress; */
+            cursor: pointer;
+        }
+
+        h1{
+            color: azure;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            align-self: center;
+            font-size: 40px;
+        }
+        .heading{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        span{
+            color: rgb(224, 219, 139);
+            font-size: 25px;
+        }
+        .button{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            /* padding: 20px; */
+        }
+        button{
+            font-size: 20px;
+            padding: 3px 10px ;
+            border: 2px solid rgb(61, 61, 173);
+            border-radius: 50px;
+            color: aliceblue;
+            background-color: black;
+        }
+        button:hover{
+            transform: scale(1.05);
+            border: 2px solid yellowgreen;
+            background-color: rgb(36, 36, 36);
+            cursor: pointer;
+        }
+
+    </Style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="logo">
+                <img src="https://m.media-amazon.com/images/I/61qAJJ97BzL.jpg" 
+                alt="cycle" width="300" height="300px" title="Electric Cycle">
+            </div>
+            <div class="heading">
+                <h1>FUTUREISTIC CYCLE</h1>
+                <h4><span>Coming Soon</span></h4>
+            </div>
+
+            <div class="button">
+                <button type="submit">BUY NOW</button>
+                <button type="submit">ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

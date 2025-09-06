@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 300px;
+            height: 300px;
+            background-color: bisque;
+            border: 2px solid black;
+            
+            transition-property:all;
+            /* transition-property: height; */
+            /* transition-property: width; */
+            transition-duration: 5s;
+            transition-delay: 1s;
+            transition-timing-function: linear;
+            /* transition-timing-function: ease;
+            transition-timing-function: ease-in;
+            transition-timing-function: ease-out;
+            transition-timing-function: ease-in-out;
+            transition-timing-function: cubic-bezier(0.23, 1, 0.320, 1); */
+            /* transition: width 2s, height 4s; */
+
+        }
+        .box:hover{
+            width: 800px;
+            height: 800px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+</body>
+</html>

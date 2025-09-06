@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Site</title>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(27, 26, 26);
+      }
+      .responsive {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+      }
+      p {
+        color: azure;
+        font-size: 25px;
+        background-color: rgb(68, 121, 212);
+        padding: 5px;
+        margin: 0px;
+      }
+
+      @media (max-width: 640px) {
+        .responsive {
+          display: flex;
+          align-items: start;
+        }
+        p {
+          color: azure;
+          font-size: 25px;
+          background-color: rgb(212, 133, 68);
+          padding: 5px;
+          margin: 0px;
+        }
+      }
+       @media (min-width: 641px) and (max-width:1024px) {
+        .responsive {
+          display: flex;
+          align-items: end;
+        }
+        p {
+          color: azure;
+          font-size: 25px;
+          background-color: rgb(212, 68, 102);
+          padding: 5px;
+          margin: 0px;
+        }
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="responsive">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quidem
+        consequuntur facere at asperiores assumenda quis, provident ipsa aliquid
+        corrupti!
+      </p>
+    </div>
+  </body>
+</html>

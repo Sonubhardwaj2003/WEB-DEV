@@ -1,0 +1,143 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://t4.ftcdn.net/jpg/04/39/13/37/360_F_439133763_FrLdhZsd5aGC23r9ATARuKJBr8ifZjIe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    /* background-color: #f4f4f9; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    opacity: 0.8;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.973),-2px -4px 8px rgba(0,0,0, 0.973);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Question and Choices */
+#question-container {
+    margin-bottom: 20px;
+}
+
+#question-text {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#choices-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#choices-list li {
+    background-color: #f2f2f2;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#choices-list li:hover {
+    background-color: #aca7a7;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #29622d;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Hidden Elements */
+.hidden {
+    display: none;
+}
+
+/* Result Section */
+#result-container {
+    margin-top: 20px;
+}
+
+#result-container h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#score {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Start Button */
+#start-btn {
+    background-color: #2196F3;
+}
+
+#start-btn:hover {
+    background-color: #1976D2;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    #question-text {
+        font-size: 1.4rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+    }
+
+    #score {
+        font-size: 1.2rem;
+    }
+}

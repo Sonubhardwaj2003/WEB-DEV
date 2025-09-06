@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Some DOM examples</title>
+    <Style>
+        body{
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           padding: 0px;
+        }
+        section{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+        }
+        .highlight{
+            background-color: yellow;
+            color: brown;
+        }
+    </Style>
+    <!-- <script src="_1dom.js"></script> -->
+</head>
+<body>
+    <h1>JavaScript DOM fun examples</h1>
+
+    <section id="example-1">
+        <h3>Accesssing DOM Elements </h3>
+        <p id="myParagraph">this is a paragaph .Click on button to change me</p>
+        <button id="ChangeText">Change Text</button>
+    </section>
+
+    <section id="example-2">
+        <h3>Transversing DOM Elements </h3>
+        <ul id="citiesList">
+            <li class="first">New York</li>
+            <li>London</li>
+            <li>Paris</li>
+        </ul>
+        <button id="HighlightfirstCity">highlight First city</button>
+    </section>
+
+    <section id="example-3">
+        <h3>Manupalting DOM Elements </h3>
+        <!-- <p id="order">Order : Latte</p> -->
+        <div id="CoffeOrder">Order : <span id="CoffeType">Latte</span></div>
+        <button id="ChangeOrder">Change Order to Espressso</button>
+    </section>
+
+    <section id="example-4">
+        <h3>Creating and Inserting Elements </h3>
+        <button id="AddItem">Add a New Item to shopping list</button>
+        <ul id="ItemList">
+            <li>Bread</li>
+            <li>Milk</li>
+            <li>Butter</li>
+        </ul>
+    </section>
+
+    <section id="example-5">
+        <h3>Removeing DOM Elements </h3>
+        <ul id="tasks">
+            <li>Task1</li>
+            <li>Task2</li>
+            <li>Task3</li>
+        </ul>
+        <button id="RemovingTask">removing last task</button>
+    </section>
+
+    <section id="example-6">
+        <h3>Event Handling in the DOM</h3>
+        <button id="EventHandling">Click me!</button>
+    </section>
+
+
+    <section id="example-7">
+        <h3>Event Delegation </h3>
+        <ul id="TeaType">
+            <li class="teaItem">Green Tea</li>
+            <li class="teaItem">Black Tea</li>
+            <li class="teaItem">Oolang Tea</li>
+        </ul>
+        <p>Click on any tea to select it</p>
+    </section>
+
+    <section id="example-8">
+        <h3>Form Handling</h3>
+        <form id="feedbackForm" action="">
+            <label for="feedback">Your Feedback : </label>
+            <input type="text" id="feedback" name="feedback" placeholder="Enter feedback">
+            <button id="YourFeedback">Submit Feedback</button>
+        </form>
+        <p id="feedbackDisplay"></p>
+    </section>
+
+    <section id="example-9">
+        <h3>DOM Content Loaded</h3>
+        <p id="domStatus">Waiting for DOM to Loaded...</p>
+    </section>
+
+
+    <section id="example-10">
+        <h3>CSS Classes Manuplation </h3>
+        <p id="myPara">this is a paragaph ,changes colour!</p>
+        <button id="toggleHighLight">Click to Toggle</button>
+    </section>
+
+    <script src="_1dom.js"></script>
+    
+</body>
+</html>

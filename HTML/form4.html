@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex form</title>
+</head>
+<body>
+    <h1>Comlplex Form</h1>
+    <Form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            
+            <label for="number">Phone:</label>
+            <input type="tel" id="number" name="number">
+            <br>
+            <br>
+            <label for="date">Date Of Birth:</label>
+            <input type="date" id="date" name="date">
+            <br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" id="gender1" name="radio">
+            <label for="gender1">Male</label>
+            <input type="radio" id="gender2" name="radio">
+            <label for="gender2">Female</label>
+            <br>
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="a">India</option>
+                <option value="b">US</option>
+                <option value="c">Other</option>
+            </select>
+
+            
+        </fieldset>
+        <br>
+        <fieldset>
+           <legend>Address</legend>
+           
+           <label for="street">Street:</label>
+           <input type="text" id="street" name="street">
+           <br>
+           <br>
+           <label for="city">city:</label>
+           <input type="text" id="city" name="street">
+           <br>
+           <br>
+           <label for="state">State:</label>
+           <input type="text" id="state" name="street">
+           <br>
+           <br>
+           <label for="zip code">zip code:</label>
+           <input type="text" id="zip code" name="street">
+           <br>
+           <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Other Information</legend>
+            <label for="comments">Comments</label>
+            <textarea name="comments" id="comments"></textarea>
+            <br>
+            <br>
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox"><i>i agree to the terms of service</i></label>
+            
+        </fieldset>
+
+       <br>
+       <!-- <input type="button" value="Sumbit"> -->
+        <button type="submit">Sumbit</button>
+        <button type="reset">Reset</button>
+    </Form>
+</body>
+</html>

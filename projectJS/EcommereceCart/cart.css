@@ -1,0 +1,67 @@
+body{
+    background-image:url(https://png.pngtree.com/background/20230413/original/pngtree-business-e-shopping-picture-image_2422998.jpg);
+    background-size: cover;       /* Scales image to cover entire background */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-position: center;  /* Centers the image */
+    opacity: 0.85;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border: 3px solid white ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 5px ,-2px -2px 4px 5px ;
+    text-align: center;
+    background-color: #8bcfd4;
+    /* height: 250px; */
+    /* width: 300px; */
+
+}
+h1{
+    font-size: 50px;
+    color: rgb(1, 10, 18);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#CheckOut-btn{
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(150, 148, 148);
+    cursor: pointer;
+}
+#CheckOut-btn:hover{
+    background-color:rgb(95, 93, 93) ;
+    transform: scale(1.05);
+}
+
+.product{
+    background-color: #424242;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 10px;
+    gap: 2rem;
+}
+.product button{
+    color: white;
+    background-color: #141414;
+    cursor: pointer;
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(251, 251, 251);
+    border-right: none;
+}
+.product button:hover{
+    background: #807e7e;
+}

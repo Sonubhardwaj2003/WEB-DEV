@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <h2>Job Application</h2>
+            <br>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <br>
+            <br>
+            <label for="number">Phone:</label>
+            <input type="tel" id="number" name="number">
+            <br>
+            <br>
+            <label for="file">Resume:</label>
+            <input type="file" id="file" name="resume">
+            <br>
+            <br>
+            <label for="counter">Experience(years):</label>
+            <input type="number" id="counter" name="counter" min="0" max="50">
+            <br>
+            <br>
+            <fieldset>
+                <legend>Skills:</legend>
+                <input type="checkbox" id="checkbox1" name="checkbox1">
+                <br>
+                <label for="checkbox1">HTML</label>
+                <br>
+                <input type="checkbox" id="checkbox2" name="checkbox2">
+                <br>
+                <label for="checkbox2">CSS</label>
+                <br><input type="checkbox" id="checkbox3" name="checkbox3">
+                <br>
+                <label for="checkbox3">Java Script</label>
+                <br>
+            
+            </fieldset>
+            <br>
+            <label for="text">Highest education:</label>
+            <select name="education" id="text">
+                <option value="A">10th</option>
+                <option value="B">12th</option>
+                <option value="C">UG</option>
+                <option value="D">PG</option>
+                <option value="E">Other</option>
+            </select>
+            <br>
+            <label for="text">Availability:</label>
+            <input type="radio" id="radio1" name="radio">
+            <label for="radio">Full time</label>
+            <input type="radio" id="radio2" name="radio">
+            <label for="radio2">Part time</label>
+            <br>
+            <label for="text">Additional Comment:</label>
+            <br>
+            <textarea name="comments" id="text"></textarea>
+            <br>
+            <!-- <input type="button" value="Sumbit Application"> -->
+             <button>Sumbit Application</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>

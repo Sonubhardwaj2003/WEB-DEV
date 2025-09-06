@@ -1,0 +1,6 @@
+{
+    "github.copilot.chat.agent.autoFix": false,
+    "github.copilot.chat.codeGeneration.useInstructionFiles": false,
+    "github.copilot.chat.agent.runTasks": false,
+    "C_Cpp.copilotHover": "disabled"
+}

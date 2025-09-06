@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .container{
+        border: 5px black solid;
+        /* width: 1000px; */
+        height: 1000px;
+        background-color: beige;
+
+        display: flex;
+         
+         /* generally row  */
+
+        /* flex-direction:row; */
+        flex-direction: column;
+        /* flex-direction: row-reverse;
+        flex-direction: column-reverse; */
+
+        flex-wrap:wrap;
+        /* inspect page  */
+
+        /* flex-flow: row; */
+
+        /* justify-content: space-between; */
+        /* justify-content: space-around; */
+        /* justify-content: center; */
+        /* justify-content: end; */
+       
+        /* align-items: end; */
+        /* align-items: center; */
+        /* align-items:stretch; */
+        /* strech after removing box height  */
+
+        /* align-content:center; */
+
+        
+
+    }
+    .box{
+        width: 100px;
+        height: 100px;
+        border: 2px solid black;
+        margin: 2px;
+        padding: 2px;
+
+        /* display: flex; */
+        /* flex-direction:row ; */
+        /* wrong place */
+    }
+    #box1{
+          background-color: red;
+          /* order: 200; */
+          /* flex-shrink: 5; */
+          /* flex-grow:2; */
+          /* flex-basis: 500px; */
+          /* align-self: flex-end; */
+          
+        }
+    #box2{
+          background-color: blue;
+          /* flex-grow: 3; */
+    }
+    #box3{
+          background-color: green;
+    }
+    #box4{
+          background-color: yellow;
+          /* order: -1; */
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">A</div>
+        <div class="box" id="box2">B</div>
+        <div class="box" id="box3">C</div>
+        <div class="box" id="box4">D</div>
+    </div>
+</body>
+</html>
