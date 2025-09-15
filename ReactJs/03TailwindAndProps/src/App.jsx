@@ -195,7 +195,7 @@ function App() {
             + 198 others
           </a>
         </div>
-      </div> */}h1
+      </div> */}
 
       {/* import this card ,as many time create the cart fot u */}
       <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4 my-10">
