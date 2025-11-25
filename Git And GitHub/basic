@@ -20,3 +20,8 @@ git commit -m "Initial commit"
 # (Optional) Add a remote repository (replace with your repo URL)
 # git remote add origin https://github.com/yourusername/your-repo.git
 # git push -u origin master
+
+git init
+git add .
+git commit -m "file"
+git push
