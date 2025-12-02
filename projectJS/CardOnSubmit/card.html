@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: rgb(26, 24, 24);
+            margin: 0px;
+            padding: 0px;
+        }
+
+        input{
+            color: aliceblue;
+            border: 2px solid rgb(185, 185, 185);
+            padding: 5px;
+            margin: 2px;
+        }
+        form{
+            margin: 70px;
+            display: flex;
+            flex-direction: column;
+            max-width: 300px;
+        }
+        ::placeholder{
+            color: rgb(110, 111, 113);
+        }
+
+        .card{
+            margin-left: 70px;
+            margin-top: 10px;
+            /* display: flex;
+            flex-direction: column; */
+            max-width: 300px;
+            color: azure;
+            gap: 2px;
+            border: 2px solid white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        
+        .image{
+            border-radius: 50%;
+            width: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <form action="">
+            <input type="text" placeholder="Profile Pic">
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Branch">
+            <input type="text" placeholder="Info">
+            <input type="submit">
+        </form>
+
+        <!-- <div class="card">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.UYagQDMo7CCbBLXOPB5etAHaHa?pid=Api&P=0&h=180" alt="" class="image">
+
+            <h2>KOKKO</h2>
+            <h3>sb@gmail.com</h3>
+            <h3>Cse</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, iste?</p>
+        </div> -->
+    </div>
+
+
+    <script src="card.js"></script>
+</body>
+</html>
