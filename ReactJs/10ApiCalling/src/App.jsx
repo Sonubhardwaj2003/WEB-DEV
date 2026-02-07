@@ -6,7 +6,7 @@ function App() {
     /* fetch method */
   }
   const getFetchData = async () => {
-    const response = await fetch("https://jsonplaceholder.typicode.com/users");
+    const response = await fetch.get("https://picsum.photos/v2/list?page=2&limit=100");
     const data = await response.json();
     console.log(data);
   };
@@ -14,8 +14,8 @@ function App() {
   {
     /* axios method */
   }
-  const getAxioshData = async () => {
-    const response = await axios("https://jsonplaceholder.typicode.com/users");
+  const getAxiosData = async () => {
+    const response = await axios.get("https://picsum.photos/v2/list?page=2&limit=100");
   
     console.log(response.data);
   };
@@ -24,7 +24,7 @@ function App() {
     <>
       <div>
         <button onClick={getFetchData}>Api Cal for fetch</button>
-        <button onClick={getAxioshData}>Api Call for axios</button>
+        <button onClick={getAxiosData}>Api Call for axios</button>
       </div>
     </>
   );
