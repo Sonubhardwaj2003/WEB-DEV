@@ -119,7 +119,7 @@ function App() {
               <div
                 key={idx}
                 className="
-                    relative p-5 rounded-2xl bg-[url('https://static.vecteezy.com/system/resources/previews/037/152/677/non_2x/sticky-note-paper-background-free-png.png')] bg-cover backdrop-blur-lg
+                    relative p-5 rounded bg-[url('https://static.vecteezy.com/system/resources/previews/037/152/677/non_2x/sticky-note-paper-background-free-png.png')] bg-cover backdrop-blur-lg
                     border border-white/20 text-black shadow-xl
                     transform transition-all duration-300
                     hover:scale-105 hover:shadow-2xl
@@ -132,7 +132,7 @@ function App() {
                 <button
                   onClick={() => deleteTask(idx)}
                   className="
-                    absolute top-5 right-4 lg:right-2 border bg-red-500 rounded-full p-1
+                    absolute top-0 right-0 border bg-gray-500 rounded-tr px-1 p-0.5
                     text-black text-xl font-extrabold
                     transition-all duration-300
                     hover:text-red-800 hover:scale-105
