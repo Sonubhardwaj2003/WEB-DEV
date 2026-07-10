@@ -1,0 +1,14 @@
+"filename", "language", "PostCSS", "JavaScript JSX", "JavaScript", "XML", "Markdown", "HTML", "JSON", "comment", "blank", "total"
+"c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactNotesApp\README.md", "Markdown", 0, 0, 0, 0, 10, 0, 0, 0, 9, 19
+"c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactNotesApp\eslint.config.js", "JavaScript", 0, 0, 28, 0, 0, 0, 0, 0, 2, 30
+"c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactNotesApp\index.html", "HTML", 0, 0, 0, 0, 0, 13, 0, 0, 1, 14
+"c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactNotesApp\package-lock.json", "JSON", 0, 0, 0, 0, 0, 0, 3997, 0, 1, 3998
+"c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactNotesApp\package.json", "JSON", 0, 0, 0, 0, 0, 0, 32, 0, 1, 33
+"c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactNotesApp\public\vite.svg", "XML", 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactNotesApp\src\App.css", "PostCSS", 37, 0, 0, 0, 0, 0, 0, 0, 6, 43
+"c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactNotesApp\src\App.jsx", "JavaScript JSX", 0, 131, 0, 0, 0, 0, 0, 5, 22, 158
+"c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactNotesApp\src\assets\react.svg", "XML", 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactNotesApp\src\index.css", "PostCSS", 5, 0, 0, 0, 0, 0, 0, 0, 1, 6
+"c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactNotesApp\src\main.jsx", "JavaScript JSX", 0, 9, 0, 0, 0, 0, 0, 0, 2, 11
+"c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactNotesApp\vite.config.js", "JavaScript", 0, 0, 14, 0, 0, 0, 0, 1, 2, 17
+"Total", "-", 42, 140, 42, 2, 10, 13, 4029, 6, 47, 4331

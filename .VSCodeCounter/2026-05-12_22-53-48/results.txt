@@ -1,0 +1,49 @@
+Date : 2026-05-12 22:53:48
+Directory : c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactGalleryPoject
+Total : 13 files,  4586 codes, 18 comments, 53 blanks, all 4657 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| JSON           |          2 |      4,310 |          0 |          2 |      4,312 |
+| JavaScript JSX |          3 |        171 |         17 |         31 |        219 |
+| JavaScript     |          2 |         42 |          1 |          4 |         47 |
+| PostCSS        |          2 |         38 |          0 |          6 |         44 |
+| HTML           |          1 |         13 |          0 |          1 |         14 |
+| Markdown       |          1 |         10 |          0 |          9 |         19 |
+| XML            |          2 |          2 |          0 |          0 |          2 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                          | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                             |         13 |      4,586 |         18 |         53 |      4,657 |
+| . (Files)                                                                                     |          6 |      4,375 |          1 |         16 |      4,392 |
+| public                                                                                        |          1 |          1 |          0 |          0 |          1 |
+| src                                                                                           |          6 |        210 |         17 |         37 |        264 |
+| src (Files)                                                                                   |          4 |        159 |         12 |         28 |        199 |
+| src\assets                                                                                    |          1 |          1 |          0 |          0 |          1 |
+| src\components                                                                                |          1 |         50 |          5 |          9 |         64 |
++-----------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                      | language       | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactGalleryPoject\README.md                 | Markdown       |         10 |          0 |          9 |         19 |
+| c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactGalleryPoject\eslint.config.js          | JavaScript     |         28 |          0 |          2 |         30 |
+| c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactGalleryPoject\index.html                | HTML           |         13 |          0 |          1 |         14 |
+| c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactGalleryPoject\package-lock.json         | JSON           |      4,277 |          0 |          1 |      4,278 |
+| c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactGalleryPoject\package.json              | JSON           |         33 |          0 |          1 |         34 |
+| c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactGalleryPoject\public\vite.svg           | XML            |          1 |          0 |          0 |          1 |
+| c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactGalleryPoject\src\App.css               | PostCSS        |         37 |          0 |          6 |         43 |
+| c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactGalleryPoject\src\App.jsx               | JavaScript JSX |        112 |         12 |         20 |        144 |
+| c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactGalleryPoject\src\assets\react.svg      | XML            |          1 |          0 |          0 |          1 |
+| c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactGalleryPoject\src\components\Navbar.jsx | JavaScript JSX |         50 |          5 |          9 |         64 |
+| c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactGalleryPoject\src\index.css             | PostCSS        |          1 |          0 |          0 |          1 |
+| c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactGalleryPoject\src\main.jsx              | JavaScript JSX |          9 |          0 |          2 |         11 |
+| c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactGalleryPoject\vite.config.js            | JavaScript     |         14 |          1 |          2 |         17 |
+| Total                                                                                         |                |      4,586 |         18 |         53 |      4,657 |
++-----------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

@@ -1,0 +1,47 @@
+Date : 2026-05-12 22:55:49
+Directory : c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactNotesApp
+Total : 12 files,  4278 codes, 6 comments, 47 blanks, all 4331 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| JSON           |          2 |      4,029 |          0 |          2 |      4,031 |
+| JavaScript JSX |          2 |        140 |          5 |         24 |        169 |
+| PostCSS        |          2 |         42 |          0 |          7 |         49 |
+| JavaScript     |          2 |         42 |          1 |          4 |         47 |
+| HTML           |          1 |         13 |          0 |          1 |         14 |
+| Markdown       |          1 |         10 |          0 |          9 |         19 |
+| XML            |          2 |          2 |          0 |          0 |          2 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                   |         12 |      4,278 |          6 |         47 |      4,331 |
+| . (Files)                                                                           |          6 |      4,094 |          1 |         16 |      4,111 |
+| public                                                                              |          1 |          1 |          0 |          0 |          1 |
+| src                                                                                 |          5 |        183 |          5 |         31 |        219 |
+| src (Files)                                                                         |          4 |        182 |          5 |         31 |        218 |
+| src\assets                                                                          |          1 |          1 |          0 |          0 |          1 |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                            | language       | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactNotesApp\README.md            | Markdown       |         10 |          0 |          9 |         19 |
+| c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactNotesApp\eslint.config.js     | JavaScript     |         28 |          0 |          2 |         30 |
+| c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactNotesApp\index.html           | HTML           |         13 |          0 |          1 |         14 |
+| c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactNotesApp\package-lock.json    | JSON           |      3,997 |          0 |          1 |      3,998 |
+| c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactNotesApp\package.json         | JSON           |         32 |          0 |          1 |         33 |
+| c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactNotesApp\public\vite.svg      | XML            |          1 |          0 |          0 |          1 |
+| c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactNotesApp\src\App.css          | PostCSS        |         37 |          0 |          6 |         43 |
+| c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactNotesApp\src\App.jsx          | JavaScript JSX |        131 |          5 |         22 |        158 |
+| c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactNotesApp\src\assets\react.svg | XML            |          1 |          0 |          0 |          1 |
+| c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactNotesApp\src\index.css        | PostCSS        |          5 |          0 |          1 |          6 |
+| c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactNotesApp\src\main.jsx         | JavaScript JSX |          9 |          0 |          2 |         11 |
+| c:\Users\sb943\OneDrive\Desktop\WEB DEV\ReactPoj\reactNotesApp\vite.config.js       | JavaScript     |         14 |          1 |          2 |         17 |
+| Total                                                                               |                |      4,278 |          6 |         47 |      4,331 |
++-------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
